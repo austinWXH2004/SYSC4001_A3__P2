@@ -9,8 +9,8 @@
 #include <fcntl.h>
 
 /**
-* @author 101256669
-* @author 101298080  
+* @author Wenxuan Han 101256669
+* @author Tony Yao 101298080  
  */
 
  
@@ -110,6 +110,7 @@ void Save_modified_rubric(Shared_Memory *shared_memory, const char *file_name)
         fprintf(file, "%d, %c\n", i + 1, shared_memory->rubric[i]);
     }
     fclose(file);
+    printf("Rubric file updated successfully\n");
 }
 
 int question_number_on_exam_selected(Shared_Memory *shared_memory)
