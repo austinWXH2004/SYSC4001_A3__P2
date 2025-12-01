@@ -17,14 +17,14 @@
 
 #define EXAM_AMOUNT_MOST 20
 #define QUESTION_AMOUNT_EXAM 5
-#define MAX_STUDENT_FOR_EXAM 200
+#define MAX_STUDENT_FOR_EXAM 20
 #define MAX_STUDENT_NUMBER_IN_EXAM_PILES 9999
 
 // add elements of semaphore
 #define SEM_KEY 1234
 #define SEMAPHORE_RUBRIC 0    // for rubric modification for each Ta
 #define SEMAPHORE_EXAM_LOAD 1 // for loading the next exam to share memory
-#define SEMAPHORE_QUESTION 2  
+#define SEMAPHORE_QUESTION 2  // for number of questions that being selected
 
 #ifndef __APPLE__
 union semun
