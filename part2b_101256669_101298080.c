@@ -24,7 +24,7 @@
 #define SEM_KEY 1234
 #define SEMAPHORE_RUBRIC 0    // for rubric modification for each Ta
 #define SEMAPHORE_EXAM_LOAD 1 // for loading the next exam to share memory
-#define SEMAPHORE_QUESTION 2  // for number of questions that being selected
+#define SEMAPHORE_QUESTION 2  
 
 #ifndef __APPLE__
 union semun
