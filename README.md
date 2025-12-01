@@ -7,3 +7,8 @@ gcc -o part2a part2a_101256669_101298080.c
 
 ./part2a 2
 
+for part two b): 
+
+gcc -o part2b part2b_101256669_101298080.c
+
+./part2b 3
