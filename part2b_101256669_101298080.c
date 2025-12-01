@@ -11,8 +11,8 @@
 #include <signal.h>
 
 /**
- * @author Wenxuan Han 101256669
- * @author Tony Yao 101298080
+ * @author 101256669
+ * @author 101298080
  */
 
 #define EXAM_AMOUNT_MOST 20
